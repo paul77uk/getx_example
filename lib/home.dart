@@ -38,6 +38,16 @@ class Home extends StatelessWidget {
             //   child: Text("Increment counter"),
             //   onPressed: () => Controller.to.increment(),
             // ),
+            Obx(() => Text('count2: ${c.count2.value}')),
+            Obx(() => Text('sum = ${c.total.value}')),
+            RaisedButton(
+              child: Text("Increase count2"),
+              onPressed: () => c.increment2(),
+            ),
+            RaisedButton(
+              child: Text("count + count2 sum"),
+              onPressed: () => c.sum(),
+            ),
             RaisedButton(
               child: Text("Go to Other"),
               onPressed: () => Get.to(Other()),
