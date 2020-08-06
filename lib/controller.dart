@@ -2,13 +2,13 @@ import 'package:get/get.dart';
 
 class Controller extends GetxController {
   var count = 0.obs;
-  var name = 'Jonatas Borges'.obs;
+//   var name = 'Jonatas Borges'.obs;
   
   increment() => count.value++;
   
   decrement() => count.value--;
   
-  plusTen() => count.value = 10;
+//   plusTen() => count.value = 10;
   
   changeValue(value) {
     count.value = value;
