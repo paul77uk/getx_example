@@ -10,9 +10,9 @@ class Controller extends GetxController {
   
 //   plusTen() => count.value = 10;
   
-  changeValue(value) {
-    count.value = value;
-  }
+//   changeValue(value) {
+//     count.value = value;
+//   }
 
 //   static Controller get to => Get.find();
 
