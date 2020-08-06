@@ -51,8 +51,12 @@ class Home extends StatelessWidget {
               onPressed: () => Get.offAll(Other()),
             ),
             RaisedButton(
-              child: Text("change count value"),
-              onPressed: () => c.changeValue(10),
+              child: Text("change count value to 10"),
+              onPressed: () => c.count(10),
+            ),
+            RaisedButton(
+              child: Text("change count value to 20"),
+              onPressed: () => c.count(20),
             ),
           ],
         ),
