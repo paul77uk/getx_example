@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
 
 class Controller extends GetxController {
-   var count = 0.obs;
-  var count2 = 0.obs;
-  var total = 0.obs;
+    RxInt count = 0.obs;
+   RxInt count2 = 0.obs;
+  RxInt total = 0.obs;
   // var name = 'Jonatas Borges'.obs;
   
   increment() => count.value++;
